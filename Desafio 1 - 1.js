@@ -4,6 +4,6 @@ const usuario = [{
     altura: 1.75
 }]
 
-const imc = usuario.peso / usuario.altura*usuario.altura
+const imc = 
 
 console.log(imc)
