@@ -11,4 +11,6 @@ if (imc >= 30){
     console.log('Voce esta acima do Peso.')
 }else{
     console.log('Voce esta no Peso ideal.')
-}
+
+
+    //comentario
