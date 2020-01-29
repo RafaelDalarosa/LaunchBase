@@ -14,7 +14,7 @@ const usuarios = [{
 
 function buscaTech(tech){
    for (let i = 0; i < tech.length; i++)
-        console.log(tech[i].tecnologias)
+        console.log(`${tech[i].nome} trabalha com ${tech[i].tecnologias}`)
    }
 
 
