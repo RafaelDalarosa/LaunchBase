@@ -13,8 +13,10 @@ const usuarios = [{
 
 
 function buscaTech(tech){
-   for (let i = 0; i < tech.length; i++) 
-        console.log(i)
+   for (let i = 0; i < tech.length; i++)
+        console.log(tech[i].tecnologias)
    }
-}
+
+
+buscaTech(usuarios)
 
