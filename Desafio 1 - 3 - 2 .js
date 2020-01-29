@@ -1,22 +1,32 @@
 const usuarios = [{
-    nome: 'Carlos',
+    nome: ['Carlos'],
     tecnologias: ['HTML', 'CSS']   
 },
 {
-    nome: 'Jasmine',
+    nome: ['Jasmine'],
     tecnologias: ['JavaScript', 'CSS']
 },
 {
-    nome: 'Tuane',
+    nome: ['Tuane'],
     tecnologias: ['HTML', 'Node.js']
 }]
 
 
-function buscaTech(tech){
-   for (let i = 0; i < tech.length; i++)
-        console.log(`${tech[i].nome} trabalha com ${tech[i].tecnologias}`)
+
+
+function checkTech(check){
+    let top
+    for (let i = 0; i < check.tecnologias.length; i++){
+        if (check.tecnologias[i] == 'CSS'){
+            return top = true
+        }
+    }
    }
 
 
-buscaTech(usuarios)
+for (let x = 0; x < usuarios.length; x++){
+    if (checkTech(usuarios[x]) == true){
+        console.log(`O usuario ${usuarios[x].nome} trabalha com CSS`)
+    }
 
+}
