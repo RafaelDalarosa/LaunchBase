@@ -16,9 +16,6 @@ const usuarios = [
     }
   ]
 
-
-
-
 for (let i = 0; i < usuarios.length; i++){
     let resultado = calculaReceitas(usuarios[i])-calculaDespesas(usuarios[i])
         if (resultado < 0){
@@ -28,7 +25,6 @@ for (let i = 0; i < usuarios.length; i++){
         }
     
 }
-
 
 function calculaReceitas(rec){
     let y = 0
