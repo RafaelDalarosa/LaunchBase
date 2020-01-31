@@ -15,10 +15,10 @@ const usuarios = [{
 
 
 function checkTech(check){
-    let top
+    let x
     for (let i = 0; i < check.tecnologias.length; i++){
         if (check.tecnologias[i] == 'CSS'){
-            return top = true
+            return x = true
         }
     }
    }
