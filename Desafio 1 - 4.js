@@ -38,7 +38,7 @@ function getHigherTransactionByType(x){
                 let j = x.transaction.value
                 if (j < x.transaction.value){
                     x.transaction.value = j
-                    console.log(x) 
+                    console.log(j) 
                 }
                     
             }
@@ -48,9 +48,6 @@ function getHigherTransactionByType(x){
     
     
 getHigherTransactionByType(user)
-
-
-
 
 createTransaction(user, 50)
 createTransaction(user, -20)
