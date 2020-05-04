@@ -33,26 +33,27 @@ function createTransaction(tr,x){
 
 
 function getHigherTransactionByType(x){
-    for (let i = 0; i < x.transaction.length; i++){
-            for (let h = 0; h < x.transaction[i].value; h++){
-                let j = x.transaction.value
-                if (j < x.transaction.value){
-                    x.transaction.value = j
-                    console.log(j) 
-                }
-                    
-            }
-         }
-    
+    for (let i = 0; i < x.transaction; i++){
+        for (let h = 0; h < x.transaction[h].type; i++){
+            if ( x.transaction.type = "credit")
+            console.log(`${trasaction.type}+${transaction.value}`)
+            
+        }
     }
+}
     
-    
-getHigherTransactionByType(user)
-
 createTransaction(user, 50)
 createTransaction(user, -20)
 createTransaction(user, 25)
 createTransaction(user, 37)
 
+console.log (user.balance)
+
+getHigherTransactionByType("credit")
+//getHigherTransactionByType("debit")
+
+//getAverageTransactionValue()
+
+//getTransactionsCount()
 
 
